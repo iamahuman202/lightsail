@@ -70,7 +70,7 @@ Data details:
     -   `www` mirrors `/var/www` directory on the system, not `~/www`. Copy relevant files to `/var/www`, then symlink `/var/www` to `~/www`.
     -   `apache2-sites` mirrors `/etc/apache2` directory on the system, not `~/apache2-sites`. Copy relevant files to `/etc/apache2`, create folder `~/apache2-sites`, then symlink each new file in `/etc/apache2` to `~/apache2-sites`. Do not symlink `/etc/apache2` to `~/apache2-sites`.
     -   `nginx-sites` mirrors `/etc/nginx` directory on the system, not `~/nginx-sites`. Copy relevant files to `/etc/nginx`, create folder `~/nginx-sites`, then symlink each new file in `/etc/nginx` to `~/nginx-sites`. Do not symlink `/etc/nginx` to `~/apache2-nginx`.
-    -   `nodejs-apps`, `pocketjs-apps`, and all the files in the base directory belong in `~` on the server
+    -   `nodejs-apps`, `pocketjs-apps`, and all the files in the base directory belong in `~` on the server.
 -   URL files in this repository each represent a collection of files for a project maintained elsewhere, and the repository for that project is linked in the file.
     -   When uploading to the server, make the necessary replacements.
     -   ie. `aliases_ubuntu.url` contains a link to the [aliases](https://github.com/anuvgupta/aliases) project, so it should be replaced by `aliases_ubuntu.sh` and `aliases_ubuntu.txt`.
