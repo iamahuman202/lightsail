@@ -9,7 +9,7 @@ In this case, I can use this repository to quickly spin up an identical instance
 
 To bring up the VPS:
 
-1.  First, obtain an Amazon Web Services account (requires a credit card).
+1.  First, obtain an Amazon Web Services account.
 2.  Next, follow the [VPS Setup Guide](VPS%20Setup%20Guide.md) to provision the server, configure the server, and configure the network. Use the details in the following _instance/network_ sections in this readme.
 3.  Then, upload data from this repository while continuing to follow the VPS Setup Guide to deploy current applications. Use the details in the following _data_ section in this readme.
 
