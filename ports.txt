@@ -1,0 +1,27 @@
+REVERSE PROXY SERVERS
+80/443 - nginx (apache proxy)
+80/443 - nginx (pocketjs proxy)
+
+DEFAULT SERVERS
+8000 - apache2
+8001 - nginx
+
+POCKETJS APPS
+8002 - chat-simple-demo
+8003 - chat-better-demo
+8004 - slop
+8005 - sfhacks-results
+8006 - rubbr-pjs
+8007 - rpi-lights
+
+NODE.JS APPS
+3001 - messenger
+3002 - rubbr-sio
+3003 - led-lights (http)
+3004 - led-lights (ws)
+3005 - tcp-chat
+3006 - vizio-remote (http)
+3007 - vizio-remote (ws)
+3008 - nestor (ws)
+3009 - nestor (http)
+3010 - nestor (mdb)

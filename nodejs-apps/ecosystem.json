@@ -1,0 +1,65 @@
+{
+    "apps": [
+        {
+            "name": "nestor",
+            "script": "/home/ubuntu/nodejs-apps/nestor/nestor.js",
+            "cwd": "/home/ubuntu/nodejs-apps/nestor",
+            "error_file": "/home/ubuntu/nodejs-apps/nestor/nestor.log",
+            "out_file": "/home/ubuntu/nodejs-apps/nestor/nestor.log",
+            "interpreter": "/usr/local/bin/node",
+            "max_memory_restart": "100M",
+            "restart_delay": "3000"
+        },
+        {
+            "name": "led-lights",
+            "script": "/home/ubuntu/nodejs-apps/led-lights/ledlights.js",
+            "cwd": "/home/ubuntu/nodejs-apps/led-lights",
+            "error_file": "/home/ubuntu/nodejs-apps/led-lights/ledlights.log",
+            "out_file": "/home/ubuntu/nodejs-apps/led-lights/ledlights.log",
+            "interpreter": "/usr/local/bin/node",
+            "max_memory_restart": "100M",
+            "restart_delay": "3000"
+        },
+        {
+            "name": "vizio-remote",
+            "script": "/home/ubuntu/nodejs-apps/vizio-remote/app.js",
+            "cwd": "/home/ubuntu/nodejs-apps/vizio-remote",
+            "error_file": "/home/ubuntu/nodejs-apps/vizio-remote/app.log",
+            "out_file": "/home/ubuntu/nodejs-apps/vizio-remote/app.log",
+            "interpreter": "/usr/local/bin/node",
+            "max_memory_restart": "100M",
+            "restart_delay": "3000"
+        },
+        {
+            "name": "tcp-chat",
+            "script": "/home/ubuntu/nodejs-apps/tcp-chat/chat.js",
+            "cwd": "/home/ubuntu/nodejs-apps/tcp-chat",
+            "error_file": "/home/ubuntu/nodejs-apps/tcp-chat/chat.log",
+            "out_file": "/home/ubuntu/nodejs-apps/tcp-chat/chat.log",
+            "interpreter": "/usr/local/bin/node",
+            "args": "3004",
+            "max_memory_restart": "100M",
+            "restart_delay": "3000"
+        },
+        {
+            "name": "rubbr-sio",
+            "script": "/home/ubuntu/nodejs-apps/rubbr-sio/rubbr.js",
+            "cwd": "/home/ubuntu/nodejs-apps/rubbr-sio",
+            "error_file": "/home/ubuntu/nodejs-apps/rubbr-sio/rubbr.log",
+            "out_file": "/home/ubuntu/nodejs-apps/rubbr-sio/rubbr.log",
+            "interpreter": "/usr/local/bin/node",
+            "max_memory_restart": "100M",
+            "restart_delay": "3000"
+        },
+        {
+            "name": "messenger",
+            "script": "/home/ubuntu/nodejs-apps/messenger/app.js",
+            "cwd": "/home/ubuntu/nodejs-apps/messenger",
+            "error_file": "/home/ubuntu/nodejs-apps/messenger/app.log",
+            "out_file": "/home/ubuntu/nodejs-apps/messenger/app.log",
+            "interpreter": "/usr/local/bin/node",
+            "max_memory_restart": "100M",
+            "restart_delay": "3000"
+        }
+    ]
+}

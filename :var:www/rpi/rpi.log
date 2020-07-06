@@ -1,0 +1,17 @@
+
+CLIENT CONNECTING: 
+[SERVER] client[1] 183.136.225.44 : 28488 connecting
+[SERVER] headers recieved | headers sent
+[SERVER] handshake complete - client connected
+
+
+client[1] disconnected
+
+CLIENT CONNECTING: 
+[SERVER] client[1] 24.130.147.248 : 58076 connecting
+[SERVER] headers recieved | headers sent
+[SERVER] handshake complete - client connected
+
+[LOG] Update requested by client #1
+
+client[1] 24.130.147.248 : 58076 disconnected
